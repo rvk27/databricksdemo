@@ -2,8 +2,8 @@
 Connect-AzAccount
 
 # Specify the resource group and Databricks workspace name
-$resourceGroup = "NATGATEWAY"
-$databricksWorkspaceName = "azuredatabricks01"
+$resourceGroup = "SATHISH_DEMO_RG"
+$databricksWorkspaceName = "databricksrgdemo"
 
 # Get the Databricks workspace
 $workspace = Get-AzResource -ResourceGroupName $resourceGroup -ResourceType Microsoft.Databricks/workspaces -Name $databricksWorkspaceName
