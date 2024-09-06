@@ -2,7 +2,7 @@
 Connect-AzAccount
 
 # Specify the resource group and Databricks workspace name
-$resourceGroup = "SATHISH_DEMO_RG"
+$resourceGroup = "RameshPOC"
 $databricksWorkspaceName = "databricksrgdemo"
 
 # Get the Databricks workspace
