@@ -11,3 +11,4 @@ $workspace = Get-AzResource -ResourceGroupName $resourceGroup -ResourceType Micr
 # Retrieve the public IP address
 $publicIp = $workspace.Properties.managedResourcePublicIp
 Write-Output "Public IP Address of Azure Databricks cluster: $publicIp"
+
